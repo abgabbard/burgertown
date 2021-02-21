@@ -1,9 +1,14 @@
-<li>
-	{{burger_name}}
+<div class="container">
+	<div class="row">
+		<div class="col-sm">
 
-	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}Devour TIME!{{else}}Undevour UP!{{/if}}
-	</button>
+			{{burger_name}}
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
-</li>
+			<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+				{{#if devoured}}Devour this Burger!{{else}}SEND IT UP TO BE RE-DEVOUR!{{/if}}
+			</button>
+
+			<button class="delete-burger" data-id="{{this.id}}">DELETE THIS BURGER!</button>
+		</div>
+	</div>
+</div>

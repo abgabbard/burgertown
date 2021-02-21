@@ -17,9 +17,16 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  color: white;
+
 }
 
-body {
+body, h1, h2 {
   background: url(https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/exps28800_UG143377D12_18_1b_RMS.jpg);
-  color: white
+  color: white;
+  text-align: center;
+}
+
+.row {
+  color: white;
 }
