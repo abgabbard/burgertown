@@ -1,7 +1,8 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #958166;
+  color: white
 }
 
 .label {
@@ -16,4 +17,9 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+body {
+  background: url(https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/exps28800_UG143377D12_18_1b_RMS.jpg);
+  color: white
 }
