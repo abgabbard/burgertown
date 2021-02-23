@@ -33,3 +33,7 @@ body, h1, h2 {
   background-color: royalblue
   ;
 }
+
+.container {
+  padding: 2px;
+}
