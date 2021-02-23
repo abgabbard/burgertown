@@ -22,11 +22,14 @@ li {
 }
 
 body, h1, h2 {
-  background: url(https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/exps28800_UG143377D12_18_1b_RMS.jpg);
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqh5wNdlTFnMMiCsGdq5cV2bYbuwPACDFknQ&usqp=CAU); */
+  background-color: royalblue;
   color: white;
   text-align: center;
 }
 
 .row {
-  color: white;
+  color: black;
+  background-color: royalblue
+  ;
 }
